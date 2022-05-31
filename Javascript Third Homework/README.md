@@ -7,8 +7,7 @@
     
 */
 
-
-//Task 2 
+//Task 2
 /*
 დაწერეთ ფუნქცია ციფრების ჯამი , sumOfDigits(n) რომელიც იღებს ერთ პარამეტრს 
 და აბრუნებს გადაცემული მნიშვნელობის შემადგენელი ციფრების ჯამს . 
@@ -18,7 +17,6 @@ sumOfDigits(1312) = 1+3+1+2 = 7;
 ფუნქციის გამოყენებით . 
 
 */
-
 
 //Task 3
 /*
@@ -32,24 +30,31 @@ sumOfDigits(1312) = 1+3+1+2 = 7;
     !!!აუცილებლად გამოიყენეთ bind მეთოდი
 */
 let factory = {
-    facName : 'Volkswagen Wolfsburg Plant',
-    calculateWorkload : function (){
-    },
-    formatArray : function (name) {
-
-    }
-    
-}
+  facName: 'Volkswagen Wolfsburg Plant',
+  calculateWorkload: function () {},
+  formatArray: function (name) {},
+};
 
 let factoryEmployees = {
-    employees : [{name : "John", timeSpent : 1 } , {name : "Sam", timeSpent : 3 },{name : "Maria", timeSpent : 2 },{name : "Dan", timeSpent : 4 },{name : "Lorelai", timeSpent : 5 }],
-    employeeNum : this.employees.length,
-}
+  employees: [
+    { name: 'John', timeSpent: 1 },
+    { name: 'Sam', timeSpent: 3 },
+    { name: 'Maria', timeSpent: 2 },
+    { name: 'Dan', timeSpent: 4 },
+    { name: 'Lorelai', timeSpent: 5 },
+  ],
+  employeeNum: this.employees.length,
+};
 
 let workloadData = {
-    employeeWeeklyWorkload : [{name : "John", workload : 40 } , {name : "Sam", timeSpent : 25 },{name : "Maria", timeSpent : 28 },{name : "Dan", timeSpent : 30 },{name : "Lorelai", timeSpent : 31 }]
-}
-
+  employeeWeeklyWorkload: [
+    { name: 'John', workload: 40 },
+    { name: 'Sam', timeSpent: 25 },
+    { name: 'Maria', timeSpent: 28 },
+    { name: 'Dan', timeSpent: 30 },
+    { name: 'Lorelai', timeSpent: 31 },
+  ],
+};
 
 //Task 4
 
@@ -62,7 +67,6 @@ thisმა უნდა მიუთითოს შეგიძლიათ app
 
 
 */
-
 
 //Task 5
 /*
