@@ -94,13 +94,11 @@ console.log(sumOfNumbers.apply(null, [9, 4]));
 //TASK: #5
 
 const checkIfEven = function (n) {
-  if (n % 2 == true) {
+  if (n % 2 == false) {
     console.log(`${n} is Even`);
-  } else if (n == 0) {
-    console.log(`ERROR! Write valid Number!`);
   } else {
     console.log(`${n} is Odd`);
   }
 };
 
-checkIfEven(12);
+checkIfEven(6);
